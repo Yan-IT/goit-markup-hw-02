@@ -1,0 +1,78 @@
+/* цвет основного текста */
+/* вторичный цвет текста */
+
+/* белый */
+/* акцент */
+
+/* втричный цвет фона */
+
+:root {
+	--primary-text-color: ;
+	--title-text-color: ;
+	--accent-color: ;
+	--primary-white-color: ;
+}
+
+.button {
+	color: var(--title-text-color);
+	background-color: var(--primary-white-color);
+
+	font-size: ;
+	padding: ;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.site-nav .link {
+	color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+	color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+	color: blue;
+}
+
+.hero-title {
+	color: var(--title-text-color);
+}
+
+.section-title {
+	color: var(--title-text-color);
+}
+
+.feature-list .title {
+	color: var (--title-text-color);
+}
+
+/* классы для portfolio.html */
+
+.button-list {
+	list-style: none;
+}
+
+.button-function {
+	color: #212121;
+	background-color: #f5f4fa;
+}
+
+.button-function:hover,
+.button-function:focus {
+	color: #ffffff;
+	background-color: #2196f3;
+}
+
+.gallery-list {
+	list-style: none;
+}
+
+.gallery-list-title {
+	color: #212121;
+}
+
+.gallery-list-text {
+	color: #757575;
+}
