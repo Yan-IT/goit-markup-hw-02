@@ -24,6 +24,14 @@ body {
 
 /* Logo */
 
+.logo-blue {
+	color: var(--accent-color);
+}
+
+.logo-blue:hover {
+	color: #000000;
+}
+
 .logo {
 	color: #000000;
 	font-family: Raleway, sans-serif;
@@ -66,22 +74,29 @@ body {
 
 /* main: */
 
+.hero {
+	background-color: #2f303a;
+}
+
 .hero-title {
-	color: var(--title-text-color);
+	color: #ffffff;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
+	font-family: inherit;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .button.primary {
-	color: var(--title-text-color);
-	background-color: var(--primary-white-color);
-
+	color: #ffffff;
+	background-color: var(--accent-color);
+	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
+
 	/* display: flex;
 	align-items: center;
 	text-align: center; */
@@ -98,14 +113,24 @@ body {
 
 .feature-list .title {
 	color: var(--primary-text-color);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
 }
 
 .feature-list p {
 	color: var(--title-text-color);
+	font-size: 14px;
+	line-height: 1.71;
 }
 
 .section-work {
 	color: var(--primary-text-color);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
 }
 
 .work-list {
@@ -114,6 +139,10 @@ body {
 
 .section-team {
 	color: var(--primary-text-color);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
 }
 
 .section-team-list {
@@ -122,10 +151,17 @@ body {
 
 .section-team-list .title {
 	color: var(--primary-text-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.18;
+	text-align: center;
 }
 
 .section-team-list p {
 	color: var(--title-text-color);
+	font-size: 16px;
+	line-height: 1.18;
+	text-align: center;
 }
 
 /* end of main. */
@@ -160,7 +196,7 @@ body {
 }
 
 .contacts-footer {
-	color: var(--title-text-color);
+	color: rgba(255, 255, 255, 0.6);
 }
 
 .contacts-footer:hover,
@@ -177,6 +213,7 @@ body {
 .button-function {
 	color: #212121;
 	background-color: #f5f4fa;
+	font-family: inherit;
 }
 
 .button-function:hover,
